@@ -1,0 +1,9 @@
+tensorflow==2.13.0
+deepface
+tf-keras
+opencv-python
+scikit-learn
+numpy
+tqdm
+flask
+python-telegram-bot

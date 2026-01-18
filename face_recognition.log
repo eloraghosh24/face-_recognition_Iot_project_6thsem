@@ -1,0 +1,353 @@
+2025-05-01 19:31:56,982 - INFO - Loaded 36 face encodings
+2025-05-01 19:31:56,987 - INFO - Starting server on http://192.168.0.103:5000
+2025-05-01 19:31:56,988 - INFO - Known faces loaded: 36
+2025-05-01 19:31:57,039 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.0.103:5000
+2025-05-01 19:31:57,041 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-01 19:31:58,917 - INFO - 192.168.0.103 - - [01/May/2025 19:31:58] "GET / HTTP/1.1" 200 -
+2025-05-01 19:32:19,372 - INFO - Received ESP32 capture request
+2025-05-01 19:32:19,373 - INFO - Request from: 192.168.0.104
+2025-05-01 19:32:20,765 - INFO - Image saved successfully
+2025-05-01 19:32:23,073 - INFO - Starting face recognition
+2025-05-01 19:32:30,460 - INFO - Received ESP32 capture request
+2025-05-01 19:32:30,462 - INFO - Request from: 192.168.0.104
+2025-05-01 19:32:31,068 - INFO - Image saved successfully
+2025-05-01 19:32:32,603 - INFO - Starting face recognition
+2025-05-01 19:32:41,178 - INFO - Received ESP32 capture request
+2025-05-01 19:32:41,179 - INFO - Request from: 192.168.0.104
+2025-05-01 19:32:41,262 - INFO - Image saved successfully
+2025-05-01 19:32:43,180 - INFO - Starting face recognition
+2025-05-01 19:32:51,402 - INFO - Received ESP32 capture request
+2025-05-01 19:32:51,408 - INFO - Request from: 192.168.0.104
+2025-05-01 19:32:51,479 - INFO - Image saved successfully
+2025-05-01 19:32:53,551 - INFO - Starting face recognition
+2025-05-01 19:33:01,583 - INFO - Received ESP32 capture request
+2025-05-01 19:33:01,583 - INFO - Request from: 192.168.0.104
+2025-05-01 19:33:01,663 - INFO - Image saved successfully
+2025-05-01 19:33:03,555 - INFO - Starting face recognition
+2025-05-01 19:33:11,773 - INFO - Received ESP32 capture request
+2025-05-01 19:33:11,774 - INFO - Request from: 192.168.0.104
+2025-05-01 19:33:11,845 - INFO - Image saved successfully
+2025-05-01 19:33:13,744 - INFO - Starting face recognition
+2025-05-01 19:33:21,961 - INFO - Received ESP32 capture request
+2025-05-01 19:33:21,962 - INFO - Request from: 192.168.0.104
+2025-05-01 19:33:22,044 - INFO - Image saved successfully
+2025-05-01 19:33:24,432 - INFO - Starting face recognition
+2025-05-01 19:33:32,069 - INFO - Received ESP32 capture request
+2025-05-01 19:33:32,072 - INFO - Request from: 192.168.0.104
+2025-05-01 19:33:32,137 - INFO - Image saved successfully
+2025-05-01 19:33:34,120 - INFO - Starting face recognition
+2025-05-01 19:33:42,234 - INFO - Received ESP32 capture request
+2025-05-01 19:33:42,234 - INFO - Request from: 192.168.0.104
+2025-05-01 19:33:42,324 - INFO - Image saved successfully
+2025-05-01 19:33:44,220 - INFO - Starting face recognition
+2025-05-01 19:33:52,430 - INFO - Received ESP32 capture request
+2025-05-01 19:33:52,430 - INFO - Request from: 192.168.0.104
+2025-05-01 19:33:52,517 - INFO - Image saved successfully
+2025-05-01 19:33:54,335 - INFO - Starting face recognition
+2025-05-01 19:34:02,531 - INFO - Received ESP32 capture request
+2025-05-01 19:34:02,533 - INFO - Request from: 192.168.0.104
+2025-05-01 19:34:02,763 - INFO - Image saved successfully
+2025-05-01 19:34:04,759 - INFO - Starting face recognition
+2025-05-01 19:34:12,711 - INFO - Received ESP32 capture request
+2025-05-01 19:34:12,718 - INFO - Request from: 192.168.0.104
+2025-05-01 19:34:12,831 - INFO - Image saved successfully
+2025-05-01 19:34:14,872 - INFO - Starting face recognition
+2025-05-01 19:34:22,902 - INFO - Received ESP32 capture request
+2025-05-01 19:34:22,903 - INFO - Request from: 192.168.0.104
+2025-05-01 19:34:22,964 - INFO - Image saved successfully
+2025-05-01 19:34:25,043 - INFO - Starting face recognition
+2025-05-01 19:34:33,100 - INFO - Received ESP32 capture request
+2025-05-01 19:34:33,104 - INFO - Request from: 192.168.0.104
+2025-05-01 19:34:33,288 - INFO - Image saved successfully
+2025-05-01 19:34:35,848 - INFO - Starting face recognition
+2025-05-01 19:36:33,316 - INFO - Detected 1 face(s) in image
+2025-05-01 19:36:43,419 - ERROR - No face detected: Face could not be detected in temp_esp32.jpg.Please confirm that the picture is a face photo or consider to set enforce_detection param to False.
+2025-05-01 19:36:43,894 - INFO - Detected 1 face(s) in image
+2025-05-01 19:36:54,443 - INFO - Deleted temporary file: temp_esp32.jpg
+2025-05-01 19:36:54,553 - INFO - 192.168.0.104 - - [01/May/2025 19:36:54] "[31m[1mPOST /esp32/capture HTTP/1.1[0m" 400 -
+2025-05-01 19:37:54,980 - ERROR - No face detected: [WinError 33] The process cannot access the file because another process has locked a portion of the file
+2025-05-01 19:37:58,549 - ERROR - Failed to send to Telegram: [Errno 2] No such file or directory: 'temp_esp32.jpg'
+2025-05-01 19:37:58,639 - INFO - 192.168.0.104 - - [01/May/2025 19:37:58] "[31m[1mPOST /esp32/capture HTTP/1.1[0m" 400 -
+2025-05-01 19:38:03,161 - ERROR - No face detected: [WinError 33] The process cannot access the file because another process has locked a portion of the file
+2025-05-01 19:38:03,189 - ERROR - No face detected: 'Unable to synchronously open object (wrong B-tree signature)'
+2025-05-01 19:38:06,867 - ERROR - Failed to send to Telegram: [Errno 2] No such file or directory: 'temp_esp32.jpg'
+2025-05-01 19:38:06,886 - ERROR - Failed to send to Telegram: [Errno 2] No such file or directory: 'temp_esp32.jpg'
+2025-05-01 19:38:06,972 - INFO - 192.168.0.104 - - [01/May/2025 19:38:06] "[31m[1mPOST /esp32/capture HTTP/1.1[0m" 400 -
+2025-05-01 19:38:07,008 - INFO - 192.168.0.104 - - [01/May/2025 19:38:07] "[31m[1mPOST /esp32/capture HTTP/1.1[0m" 400 -
+2025-05-01 19:38:07,828 - ERROR - No face detected: [WinError 33] The process cannot access the file because another process has locked a portion of the file
+2025-05-01 19:38:07,831 - ERROR - No face detected: 'Unable to synchronously open object (bad object header version number)'
+2025-05-01 19:38:14,577 - ERROR - Failed to send to Telegram: [Errno 2] No such file or directory: 'temp_esp32.jpg'
+2025-05-01 19:38:14,645 - ERROR - Failed to send to Telegram: [Errno 2] No such file or directory: 'temp_esp32.jpg'
+2025-05-01 19:38:14,997 - INFO - 192.168.0.104 - - [01/May/2025 19:38:14] "[31m[1mPOST /esp32/capture HTTP/1.1[0m" 400 -
+2025-05-01 19:38:15,017 - INFO - 192.168.0.104 - - [01/May/2025 19:38:15] "[31m[1mPOST /esp32/capture HTTP/1.1[0m" 400 -
+2025-05-01 19:39:32,684 - INFO - Shutting down server gracefully...
+2025-05-01 19:39:32,788 - INFO - Shutting down server gracefully...
+2025-05-01 22:10:50,484 - INFO - Loaded 36 face encodings
+2025-05-01 22:10:50,487 - INFO - Starting server on http://192.168.0.102:5000
+2025-05-01 22:10:50,487 - INFO - Known faces loaded: 36
+2025-05-01 22:10:50,528 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.0.102:5000
+2025-05-01 22:10:50,528 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-01 22:15:50,093 - INFO - Shutting down server gracefully...
+2025-05-01 22:15:50,096 - INFO - Shutting down server gracefully...
+2025-05-01 22:16:19,329 - INFO - Starting server on http://192.168.0.102:5000
+2025-05-01 22:16:19,338 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.0.102:5000
+2025-05-01 22:16:19,338 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-01 22:17:00,201 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\app.py", line 80, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2025-05-01 22:17:00,320 - INFO - 192.168.0.102 - - [01/May/2025 22:17:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-01 22:17:00,894 - INFO - 192.168.0.102 - - [01/May/2025 22:17:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-01 22:18:08,244 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\app.py", line 80, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2025-05-01 22:18:08,255 - INFO - 192.168.0.102 - - [01/May/2025 22:18:08] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-01 22:18:27,694 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\app.py", line 80, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\datas\.venv\Lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2025-05-01 22:18:27,697 - INFO - 192.168.0.102 - - [01/May/2025 22:18:27] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-01 22:18:32,273 - INFO - Shutting down server gracefully...
+2025-05-01 22:18:32,276 - INFO - Shutting down server gracefully...
+2025-05-01 22:21:17,533 - INFO - Starting server on http://192.168.0.102:5000
+2025-05-01 22:21:22,483 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.0.102:5000
+2025-05-01 22:21:22,483 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-01 22:21:40,240 - INFO - 192.168.0.102 - - [01/May/2025 22:21:40] "GET / HTTP/1.1" 200 -
+2025-05-01 22:22:49,043 - INFO - 192.168.0.102 - - [01/May/2025 22:22:49] "GET / HTTP/1.1" 200 -
+2025-05-01 22:22:52,513 - INFO - 192.168.0.102 - - [01/May/2025 22:22:52] "GET / HTTP/1.1" 200 -
+2025-05-01 22:23:12,956 - INFO - 192.168.0.102 - - [01/May/2025 22:23:12] "GET / HTTP/1.1" 200 -
+2025-05-01 22:23:13,816 - INFO - 192.168.0.102 - - [01/May/2025 22:23:13] "GET / HTTP/1.1" 200 -
+2025-05-01 22:23:13,957 - INFO - 192.168.0.102 - - [01/May/2025 22:23:13] "GET / HTTP/1.1" 200 -
+2025-05-01 22:23:14,184 - INFO - 192.168.0.102 - - [01/May/2025 22:23:14] "GET / HTTP/1.1" 200 -
+2025-05-01 22:23:42,433 - INFO - 192.168.0.102 - - [01/May/2025 22:23:42] "GET / HTTP/1.1" 200 -
+2025-05-01 22:27:06,212 - INFO - 192.168.0.102 - - [01/May/2025 22:27:06] "GET / HTTP/1.1" 200 -
+2025-05-01 22:27:08,219 - INFO - 192.168.0.102 - - [01/May/2025 22:27:08] "GET / HTTP/1.1" 200 -
+2025-05-01 22:27:08,953 - INFO - 192.168.0.102 - - [01/May/2025 22:27:08] "GET / HTTP/1.1" 200 -
+2025-05-01 22:27:09,113 - INFO - 192.168.0.102 - - [01/May/2025 22:27:09] "GET / HTTP/1.1" 200 -
+2025-05-01 22:27:09,258 - INFO - 192.168.0.102 - - [01/May/2025 22:27:09] "GET / HTTP/1.1" 200 -
+2025-05-01 22:27:09,404 - INFO - 192.168.0.102 - - [01/May/2025 22:27:09] "GET / HTTP/1.1" 200 -
+2025-05-01 22:27:09,557 - INFO - 192.168.0.102 - - [01/May/2025 22:27:09] "GET / HTTP/1.1" 200 -
+2025-05-01 22:27:09,713 - INFO - 192.168.0.102 - - [01/May/2025 22:27:09] "GET / HTTP/1.1" 200 -
+2025-05-01 22:27:09,841 - INFO - 192.168.0.102 - - [01/May/2025 22:27:09] "GET / HTTP/1.1" 200 -
+2025-05-01 22:27:09,998 - INFO - 192.168.0.102 - - [01/May/2025 22:27:09] "GET / HTTP/1.1" 200 -
+2025-05-01 22:27:10,130 - INFO - 192.168.0.102 - - [01/May/2025 22:27:10] "GET / HTTP/1.1" 200 -
+2025-05-01 22:30:33,393 - INFO - 192.168.0.102 - - [01/May/2025 22:30:33] "GET / HTTP/1.1" 200 -
+2025-05-01 22:30:34,063 - INFO - 192.168.0.102 - - [01/May/2025 22:30:34] "GET / HTTP/1.1" 200 -
+2025-05-01 22:30:34,290 - INFO - 192.168.0.102 - - [01/May/2025 22:30:34] "GET / HTTP/1.1" 200 -
+2025-05-01 22:30:34,748 - INFO - 192.168.0.102 - - [01/May/2025 22:30:34] "GET / HTTP/1.1" 200 -
+2025-05-01 22:30:34,972 - INFO - 192.168.0.102 - - [01/May/2025 22:30:34] "GET / HTTP/1.1" 200 -
+2025-05-01 22:44:47,726 - ERROR - Failed to connect to Arduino: could not open port 'COM3': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+2025-05-01 22:44:47,731 - INFO - Starting server on http://192.168.0.102:5000
+2025-05-01 22:44:47,743 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.0.102:5000
+2025-05-01 22:44:47,744 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-01 22:44:55,904 - INFO - 192.168.0.102 - - [01/May/2025 22:44:55] "GET / HTTP/1.1" 200 -
+2025-05-01 22:45:00,697 - INFO - 192.168.0.102 - - [01/May/2025 22:45:00] "GET / HTTP/1.1" 200 -
+2025-05-01 22:46:21,241 - INFO - 192.168.0.102 - - [01/May/2025 22:46:21] "GET / HTTP/1.1" 200 -
+2025-05-01 22:47:38,500 - INFO - Shutting down server gracefully...
+2025-05-01 22:47:38,508 - INFO - Shutting down server gracefully...
+2025-05-01 22:51:35,804 - INFO - Shutting down server gracefully...
+2025-05-01 22:53:00,989 - INFO - Shutting down server gracefully...
+2025-05-01 22:53:35,397 - INFO - 192.168.0.102 - - [01/May/2025 22:53:35] "GET / HTTP/1.1" 200 -
+2025-05-01 22:53:35,833 - INFO - 192.168.0.102 - - [01/May/2025 22:53:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-01 22:53:40,992 - INFO - 192.168.0.102 - - [01/May/2025 22:53:40] "GET / HTTP/1.1" 200 -
+2025-05-01 22:53:41,895 - INFO - 192.168.0.102 - - [01/May/2025 22:53:41] "GET / HTTP/1.1" 200 -
+2025-05-01 22:53:42,650 - INFO - 192.168.0.102 - - [01/May/2025 22:53:42] "GET / HTTP/1.1" 200 -
+2025-05-01 22:55:52,657 - INFO - 192.168.0.102 - - [01/May/2025 22:55:52] "GET / HTTP/1.1" 200 -
+2025-05-01 22:55:53,693 - INFO - 192.168.0.102 - - [01/May/2025 22:55:53] "GET / HTTP/1.1" 200 -
+2025-05-01 22:55:54,510 - INFO - 192.168.0.102 - - [01/May/2025 22:55:54] "GET / HTTP/1.1" 200 -
+2025-05-01 22:55:55,220 - INFO - 192.168.0.102 - - [01/May/2025 22:55:55] "GET / HTTP/1.1" 200 -
+2025-05-01 22:55:55,870 - INFO - 192.168.0.102 - - [01/May/2025 22:55:55] "GET / HTTP/1.1" 200 -
+2025-05-01 22:56:16,946 - INFO - 192.168.0.102 - - [01/May/2025 22:56:16] "GET / HTTP/1.1" 200 -
+2025-05-01 22:56:17,954 - INFO - 192.168.0.102 - - [01/May/2025 22:56:17] "GET / HTTP/1.1" 200 -
+2025-05-01 22:56:18,131 - INFO - 192.168.0.102 - - [01/May/2025 22:56:18] "GET / HTTP/1.1" 200 -
+2025-05-01 22:56:18,283 - INFO - 192.168.0.102 - - [01/May/2025 22:56:18] "GET / HTTP/1.1" 200 -
+2025-05-01 22:56:18,556 - INFO - 192.168.0.102 - - [01/May/2025 22:56:18] "GET / HTTP/1.1" 200 -
+2025-05-01 22:56:18,708 - INFO - 192.168.0.102 - - [01/May/2025 22:56:18] "GET / HTTP/1.1" 200 -
+2025-05-01 22:56:18,842 - INFO - 192.168.0.102 - - [01/May/2025 22:56:18] "GET / HTTP/1.1" 200 -
+2025-05-01 22:56:18,965 - INFO - 192.168.0.102 - - [01/May/2025 22:56:18] "GET / HTTP/1.1" 200 -
+2025-05-01 22:56:19,098 - INFO - 192.168.0.102 - - [01/May/2025 22:56:19] "GET / HTTP/1.1" 200 -
+2025-05-01 22:56:19,202 - INFO - 192.168.0.102 - - [01/May/2025 22:56:19] "GET / HTTP/1.1" 200 -
+2025-05-01 22:56:19,341 - INFO - 192.168.0.102 - - [01/May/2025 22:56:19] "GET / HTTP/1.1" 200 -
+2025-05-02 00:08:24,837 - INFO - 192.168.0.102 - - [02/May/2025 00:08:24] "GET / HTTP/1.1" 200 -
+2025-05-02 00:08:31,206 - INFO - 192.168.0.102 - - [02/May/2025 00:08:31] "GET / HTTP/1.1" 200 -
+2025-05-02 00:08:59,321 - INFO - 192.168.0.102 - - [02/May/2025 00:08:59] "GET / HTTP/1.1" 200 -
+2025-05-02 00:10:54,631 - INFO - 192.168.0.102 - - [02/May/2025 00:10:54] "GET / HTTP/1.1" 200 -
+2025-05-02 00:13:01,292 - INFO - 192.168.0.102 - - [02/May/2025 00:13:01] "GET / HTTP/1.1" 200 -
+2025-05-02 00:14:02,265 - INFO - 192.168.0.102 - - [02/May/2025 00:14:02] "GET / HTTP/1.1" 200 -
+2025-05-02 00:14:41,917 - INFO - 192.168.0.102 - - [02/May/2025 00:14:41] "GET / HTTP/1.1" 200 -
+2025-05-02 00:14:42,787 - INFO - 192.168.0.102 - - [02/May/2025 00:14:42] "GET / HTTP/1.1" 200 -
+2025-05-02 00:14:42,965 - INFO - 192.168.0.102 - - [02/May/2025 00:14:42] "GET / HTTP/1.1" 200 -
+2025-05-02 00:14:43,160 - INFO - 192.168.0.102 - - [02/May/2025 00:14:43] "GET / HTTP/1.1" 200 -
+2025-05-02 00:14:43,570 - INFO - 192.168.0.102 - - [02/May/2025 00:14:43] "GET / HTTP/1.1" 200 -
+2025-05-02 00:14:43,724 - INFO - 192.168.0.102 - - [02/May/2025 00:14:43] "GET / HTTP/1.1" 200 -
+2025-05-02 00:22:42,708 - INFO - 192.168.0.102 - - [02/May/2025 00:22:42] "GET / HTTP/1.1" 200 -
+2025-05-02 00:22:43,417 - INFO - 192.168.0.102 - - [02/May/2025 00:22:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-02 00:22:55,437 - INFO - 192.168.0.102 - - [02/May/2025 00:22:55] "GET / HTTP/1.1" 200 -
+2025-05-02 00:22:56,291 - INFO - 192.168.0.102 - - [02/May/2025 00:22:56] "GET / HTTP/1.1" 200 -
+2025-05-02 00:22:56,425 - INFO - 192.168.0.102 - - [02/May/2025 00:22:56] "GET / HTTP/1.1" 200 -
+2025-05-02 00:22:56,567 - INFO - 192.168.0.102 - - [02/May/2025 00:22:56] "GET / HTTP/1.1" 200 -
+2025-05-02 00:22:56,721 - INFO - 192.168.0.102 - - [02/May/2025 00:22:56] "GET / HTTP/1.1" 200 -
+2025-05-02 00:22:56,862 - INFO - 192.168.0.102 - - [02/May/2025 00:22:56] "GET / HTTP/1.1" 200 -
+2025-05-02 00:22:57,011 - INFO - 192.168.0.102 - - [02/May/2025 00:22:57] "GET / HTTP/1.1" 200 -
+2025-05-02 00:22:57,149 - INFO - 192.168.0.102 - - [02/May/2025 00:22:57] "GET / HTTP/1.1" 200 -
+2025-05-02 00:22:57,280 - INFO - 192.168.0.102 - - [02/May/2025 00:22:57] "GET / HTTP/1.1" 200 -
+2025-05-02 00:22:57,508 - INFO - 192.168.0.102 - - [02/May/2025 00:22:57] "GET / HTTP/1.1" 200 -
+2025-05-02 00:29:59,565 - INFO - 192.168.0.102 - - [02/May/2025 00:29:59] "GET / HTTP/1.1" 200 -
+2025-05-02 00:30:00,496 - INFO - 192.168.0.102 - - [02/May/2025 00:30:00] "GET / HTTP/1.1" 200 -
+2025-05-02 00:30:06,483 - INFO - 192.168.0.102 - - [02/May/2025 00:30:06] "GET / HTTP/1.1" 200 -
+2025-05-02 00:30:07,358 - INFO - 192.168.0.102 - - [02/May/2025 00:30:07] "GET / HTTP/1.1" 200 -
+2025-05-02 00:34:57,239 - INFO - 192.168.0.102 - - [02/May/2025 00:34:57] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:32,894 - INFO - 192.168.0.102 - - [02/May/2025 00:35:32] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:33,865 - INFO - 192.168.0.102 - - [02/May/2025 00:35:33] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:34,710 - INFO - 192.168.0.102 - - [02/May/2025 00:35:34] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:34,876 - INFO - 192.168.0.102 - - [02/May/2025 00:35:34] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:35,022 - INFO - 192.168.0.102 - - [02/May/2025 00:35:35] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:35,272 - INFO - 192.168.0.102 - - [02/May/2025 00:35:35] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:35,431 - INFO - 192.168.0.102 - - [02/May/2025 00:35:35] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:35,727 - INFO - 192.168.0.102 - - [02/May/2025 00:35:35] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:36,035 - INFO - 192.168.0.102 - - [02/May/2025 00:35:36] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:36,191 - INFO - 192.168.0.102 - - [02/May/2025 00:35:36] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:36,487 - INFO - 192.168.0.102 - - [02/May/2025 00:35:36] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:36,798 - INFO - 192.168.0.102 - - [02/May/2025 00:35:36] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:37,073 - INFO - 192.168.0.102 - - [02/May/2025 00:35:37] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:37,242 - INFO - 192.168.0.102 - - [02/May/2025 00:35:37] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:37,393 - INFO - 192.168.0.102 - - [02/May/2025 00:35:37] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:37,568 - INFO - 192.168.0.102 - - [02/May/2025 00:35:37] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:37,722 - INFO - 192.168.0.102 - - [02/May/2025 00:35:37] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:37,960 - INFO - 192.168.0.102 - - [02/May/2025 00:35:37] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:38,912 - INFO - 192.168.0.102 - - [02/May/2025 00:35:38] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:39,780 - INFO - 192.168.0.102 - - [02/May/2025 00:35:39] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:40,493 - INFO - 192.168.0.102 - - [02/May/2025 00:35:40] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:40,643 - INFO - 192.168.0.102 - - [02/May/2025 00:35:40] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:40,786 - INFO - 192.168.0.102 - - [02/May/2025 00:35:40] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:40,934 - INFO - 192.168.0.102 - - [02/May/2025 00:35:40] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:41,112 - INFO - 192.168.0.102 - - [02/May/2025 00:35:41] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:41,290 - INFO - 192.168.0.102 - - [02/May/2025 00:35:41] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:41,465 - INFO - 192.168.0.102 - - [02/May/2025 00:35:41] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:41,689 - INFO - 192.168.0.102 - - [02/May/2025 00:35:41] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:49,100 - INFO - 192.168.0.102 - - [02/May/2025 00:35:49] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:49,981 - INFO - 192.168.0.102 - - [02/May/2025 00:35:49] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:50,660 - INFO - 192.168.0.102 - - [02/May/2025 00:35:50] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:50,838 - INFO - 192.168.0.102 - - [02/May/2025 00:35:50] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:50,985 - INFO - 192.168.0.102 - - [02/May/2025 00:35:50] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:51,248 - INFO - 192.168.0.102 - - [02/May/2025 00:35:51] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:51,397 - INFO - 192.168.0.102 - - [02/May/2025 00:35:51] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:51,657 - INFO - 192.168.0.102 - - [02/May/2025 00:35:51] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:51,882 - INFO - 192.168.0.102 - - [02/May/2025 00:35:51] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:52,460 - INFO - 192.168.0.102 - - [02/May/2025 00:35:52] "GET / HTTP/1.1" 200 -
+2025-05-02 00:35:53,306 - INFO - 192.168.0.102 - - [02/May/2025 00:35:53] "GET / HTTP/1.1" 200 -
+2025-05-02 00:36:26,007 - INFO - 192.168.0.102 - - [02/May/2025 00:36:26] "GET / HTTP/1.1" 200 -
+2025-05-02 00:36:26,988 - INFO - 192.168.0.102 - - [02/May/2025 00:36:26] "GET / HTTP/1.1" 200 -
+2025-05-02 00:40:45,449 - INFO - 192.168.0.102 - - [02/May/2025 00:40:45] "GET / HTTP/1.1" 200 -
+2025-05-02 00:41:21,152 - INFO - 192.168.0.102 - - [02/May/2025 00:41:21] "GET / HTTP/1.1" 200 -
+2025-05-02 00:41:25,693 - INFO - 192.168.0.102 - - [02/May/2025 00:41:25] "GET / HTTP/1.1" 200 -
+2025-05-02 00:41:26,977 - INFO - 192.168.0.102 - - [02/May/2025 00:41:26] "GET / HTTP/1.1" 200 -
+2025-05-02 00:41:27,353 - INFO - 192.168.0.102 - - [02/May/2025 00:41:27] "GET / HTTP/1.1" 200 -
