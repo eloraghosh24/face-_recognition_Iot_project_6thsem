@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition System</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .video-container {
+            margin: 20px 0;
+            border: 2px solid #333;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        #videoFeed {
+            width: 100%;
+            max-width: 640px;
+            height: auto;
+        }
+
+        .controls {
+            margin: 20px 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+        }
+
+        .status-panel {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .status-item {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+            padding: 5px 0;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .status-label {
+            font-weight: bold;
+            color: #495057;
+        }
+
+        .status-value {
+            color: #28a745;
+        }
+
+        .status-value.error {
+            color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Face Recognition System</h1>
+        
+        <div class="video-container">
+            <img id="videoFeed" src="{{ url_for('video_feed') }}" alt="Video Feed">
+        </div>
+        
+        <div class="controls">
+            <button onclick="startRecognition()">Start Recognition</button>
+            <button onclick="stopRecognition()">Stop Recognition</button>
+            <button onclick="refreshStatus()">Refresh Status</button>
+        </div>
+        
+        <div class="status-panel">
+            <h3>System Status</h3>
+            <div id="statusContainer">
+                <div class="status-item">
+                    <span class="status-label">Server IP:</span>
+                    <span class="status-value" id="serverIP">Loading...</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">NodeMCU IP:</span>
+                    <span class="status-value" id="nodemcuIP">Loading...</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">NodeMCU Status:</span>
+                    <span class="status-value" id="nodemcuStatus">Loading...</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Door Status:</span>
+                    <span class="status-value" id="doorStatus">Loading...</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Face Recognition:</span>
+                    <span class="status-value" id="faceRecStatus">Loading...</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Last Updated:</span>
+                    <span class="status-value" id="lastUpdated">Loading...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function updateStatus() {
+            fetch('/system_status')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('serverIP').textContent = data.server.ip;
+                    document.getElementById('nodemcuIP').textContent = data.nodemcu.ip;
+                    document.getElementById('nodemcuStatus').textContent = data.nodemcu.status;
+                    document.getElementById('doorStatus').textContent = data.nodemcu.door_status;
+                    document.getElementById('faceRecStatus').textContent = 
+                        data.face_recognition.running ? 'Running' : 'Stopped';
+                    document.getElementById('lastUpdated').textContent = data.server.time;
+                })
+                .catch(error => {
+                    console.error('Status update failed:', error);
+                    document.getElementById('statusContainer').innerHTML = 
+                        `<div class="status-item error">Error: ${error.message}</div>`;
+                });
+        }
+
+        function startRecognition() {
+            fetch('/start', { method: 'POST' })
+                .then(response => response.json())
+                .then(data => alert(data.message))
+                .catch(error => console.error('Error:', error));
+        }
+
+        function stopRecognition() {
+            fetch('/stop', { method: 'POST' })
+                .then(response => response.json())
+                .then(data => alert(data.message))
+                .catch(error => console.error('Error:', error));
+        }
+
+        function refreshStatus() {
+            updateStatus();
+        }
+
+        // Update status every 5 seconds
+        setInterval(updateStatus, 5000);
+        
+        // Initial status update
+        updateStatus();
+    </script>
+</body>
+</html>
